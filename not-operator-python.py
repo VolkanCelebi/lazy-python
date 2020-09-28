@@ -11,3 +11,5 @@ def ac_kapa(self):
 def ac_kapa_usengec(self):
     self.toggled = not self.toggled
 
+
+
