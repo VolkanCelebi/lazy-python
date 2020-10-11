@@ -3,7 +3,7 @@
 liste = [1,2,3,4,5]
 
 if len(liste) > 3:
-print(f"Liste çok uzun, {len(liste)} eleman yer alıyor!")
+    print(f"Liste çok uzun, {len(liste)} eleman yer alıyor!")
 
 #Not: f burada format string anlamına gelir ve dizedeki değerlerden emin olmak için kullanılır. Format-string yada f-string denir.
 #Şimdi len fonksiyonunu iki kez çağırmadan Walrus operatörünü kullanarak yazalım.
@@ -11,7 +11,7 @@ print(f"Liste çok uzun, {len(liste)} eleman yer alıyor!")
 liste = [1,2,3,4,5]
 
 if (n := len(liste)) > 3:
-print(f"Liste çok uzun, {n} eleman yer alıyor!")
+    print(f"Liste çok uzun, {n} eleman yer alıyor!")
 
 
 #En içteki ifade n := len(liste) bir atamadır ve n dış ifadede kullanılır.
